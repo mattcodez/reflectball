@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<script src="js/fabric.js"></script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/jquery.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+	<p class="notification">Now use your X-Box controller! Requires Chrome 22 or higher</p>
+	<p id="linkBox">Link to this game: <span id="gameLink"></span></p>
+	
+	<canvas id="canBox"></canvas>
+	
+	<span id="nameHolder">Your name: <span id="playerName"></span></span><br />
+	<span id="scoreHolder">Your score: <span id="playerScore"></span></span><br />
+	<span id="totalScoreHolder">Total score: <span id="playerTotalScore"></span></span><br />
+	<span id="teamScoreHolder">Your team score: <span id="teamScore"></span></span><br />
+	<span id="playersHolder">Total players: <span id="totalPlayers"></span></span>
+
+	<p id="chatLog"></p>
+	<input id="chatEntry" type="text"></input>
+	<input id="sendChat" type="button" value="Send"></input>
+	
+	<script src="client.js"></script>
+	<script src="player.js"></script>
+	<script src="ball.js"></script>
+	<script src="events.js"></script>
+</body>
+</html>

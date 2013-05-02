@@ -1,0 +1,18 @@
+DIV.canvas-container
+{
+	float:			left;
+	margin-right:	10px;
+}
+
+#canBox
+{
+	border:	2px solid black;
+}
+
+#chatLog
+{
+	overflow: 	auto;
+	height:		600px;
+	width:		250px;
+	border:		1px dashed lightblue;
+}
